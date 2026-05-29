@@ -1,105 +1,303 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    body {background-color: #f2f2f2}
-    p.p2 {margin: 0.0px 0.0px 40.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #535353; -webkit-text-stroke: #535353}
-    p.p4 {margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
-    p.p6 {margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #000000}
-    p.p7 {margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0000e9; -webkit-text-stroke: #0000e9}
-    p.p8 {margin: 0.0px 0.0px 16.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
-    li.li5 {margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
-    span.s1 {font-kerning: none; background-color: #ffffff}
-    span.s2 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
-    span.s3 {font-kerning: none; color: #434343; background-color: #f7f7f7; -webkit-text-stroke: 0px #000000}
-    span.s4 {font-kerning: none; color: #434343; background-color: #f7f7f7; -webkit-text-stroke: 0px #434343}
-    span.s5 {text-decoration: underline ; font-kerning: none; background-color: #f7f7f7}
-    span.s6 {font-kerning: none; background-color: #ecf5ff; -webkit-text-stroke: 0px #000000}
-    span.s7 {font-kerning: none; background-color: #ecf5ff}
-    ul.ul1 {list-style-type: disc}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POV — Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+        
+        body {
+            font-family: 'Lora', serif;
+            line-height: 1.8;
+            color: #2c2c2c;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: white;
+            padding: 80px 60px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            line-height: 1.9;
+        }
+        
+        header {
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 42px;
+            font-weight: 400;
+            margin-bottom: 12px;
+            color: #000;
+            line-height: 1.2;
+        }
+        
+        .last-updated {
+            color: #999;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        
+        h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: #000;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        
+        p {
+            margin-bottom: 18px;
+            color: #555;
+            font-size: 16px;
+        }
+        
+        strong {
+            color: #000;
+            font-weight: 600;
+        }
+        
+        ul {
+            margin-left: 28px;
+            margin-bottom: 24px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            color: #555;
+            font-size: 16px;
+        }
+        
+        .highlight-box {
+            background: #f9f9f9;
+            border-left: 4px solid #161619;
+            padding: 24px 28px;
+            border-radius: 6px;
+            margin: 24px 0;
+            font-size: 15px;
+        }
+        
+        .highlight-box strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .contact-section {
+            background: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 24px 28px;
+            border-radius: 6px;
+            margin-top: 40px;
+        }
+        
+        .contact-section p {
+            margin-bottom: 12px;
+        }
+        
+        .contact-section a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        
+        .summary-box {
+            background: #fff8f0;
+            border-left: 4px solid #c47c16;
+            padding: 28px 32px;
+            border-radius: 6px;
+            margin-top: 50px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        
+        .summary-box strong {
+            display: block;
+            margin-bottom: 12px;
+            font-size: 17px;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 13px;
+            color: #999;
+        }
+        
+        section {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 28px;
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            p, li {
+                font-size: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 32.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Privacy Policy for POV</b><b></b></span></h1>
-<p class="p2"><span class="s1">Last updated: May 2026</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Data Collection</b><b></b></span></h2>
-<p class="p4"><span class="s1">POV collects and stores:</span></p>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">Video clips you record</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Audio within videos</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Written reflections and answers</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Mood and director selections</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Timestamps and entry metadata</span></li>
-</ul>
-<p class="p6"><span class="s1"><b>All data is stored locally on your device only.</b><b></b></span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Data Storage</b><b></b></span></h2>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">All data is stored privately on your iPhone</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">We do not have access to your data</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Data is encrypted by iOS</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No data is shared with third parties</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No data is sent to our servers</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No accounts or registration required</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>How We Use Your Data</b><b></b></span></h2>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">Video clips are assembled into films using on-device processing</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Reflections are analyzed locally (on your phone) to identify patterns</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Insights are generated and stored locally</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No data leaves your device</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Permissions Explained</b><b></b></span></h2>
-<p class="p6"><span class="s1"><b>Camera:</b><b></b></span></p>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">Used only when you record video</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Videos are stored locally on your device</span></li>
-</ul>
-<p class="p6"><span class="s1"><b>Microphone:</b><b></b></span></p>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">Used only to record audio within videos</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Audio is stored locally as part of your video file</span></li>
-</ul>
-<p class="p6"><span class="s1"><b>Notifications (Optional):</b><b></b></span></p>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">One soft reminder at 10pm to reflect</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Only if you enable it in settings</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No tracking of whether you read it</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Third-Party Services</b><b></b></span></h2>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">No analytics or tracking</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No ads</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No data sharing with third parties</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No remote processing of your data</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Your Rights</b><b></b></span></h2>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">You own all your data</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">You can access your videos anytime</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">You can delete individual entries or the entire app at any time</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Data is permanently deleted when you uninstall POV</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Data Retention</b><b></b></span></h2>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s1">Video clips: Stored until you delete them</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Reflections: Stored until you delete them</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">Insight cards: Stored until you delete them</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">App data: All deleted when you uninstall POV</span></li>
-  <li class="li5"><span class="s2"></span><span class="s1">No backups stored on our servers</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Children's Privacy</b><b></b></span></h2>
-<p class="p4"><span class="s1">POV is not intended for children under 13. If we discover a child under 13 has provided personal information, we will delete it immediately.</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Changes</b><b></b></span></h2>
-<p class="p4"><span class="s1">We may update this policy. Changes will be posted on this page.</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #000000"><span class="s1"><b>Contact</b><b></b></span></h2>
-<p class="p4"><span class="s1">Questions about this policy?</span></p>
-<p class="p7"><span class="s3"><b>Email:</b></span><span class="s4"> </span><span class="s5">Joudsba@gmail.com</span></p>
-<p class="p4"><span class="s6"><b>The simplest version:</b></span><span class="s7"> Everything stays on your phone. Nothing is sent anywhere. You can delete anything anytime. We don't sell, share, or monetize your data. You're in control.</span></p>
-<p class="p8"><span class="s1">Version 1.0 — May 2026</span></p>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">POV — Last updated May 2026</p>
+        </header>
+        
+        <section>
+            <h2>Data Collection</h2>
+            <p>POV collects and stores:</p>
+            <ul>
+                <li>Video clips you record</li>
+                <li>Audio within videos</li>
+                <li>Written reflections and answers</li>
+                <li>Mood and director selections</li>
+                <li>Timestamps and entry metadata</li>
+            </ul>
+            <div class="highlight-box">
+                <strong>All data is stored locally on your device only.</strong>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Data Storage</h2>
+            <ul>
+                <li>All data is stored privately on your iPhone</li>
+                <li>We do not have access to your data</li>
+                <li>Data is encrypted by iOS</li>
+                <li>No data is shared with third parties</li>
+                <li>No data is sent to our servers</li>
+                <li>No accounts or registration required</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>How We Use Your Data</h2>
+            <ul>
+                <li>Video clips are assembled into films using on-device processing</li>
+                <li>Reflections are analyzed locally (on your phone) to identify patterns</li>
+                <li>Insights are generated and stored locally</li>
+                <li>No data leaves your device</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Permissions Explained</h2>
+            
+            <p><strong>Camera</strong></p>
+            <ul>
+                <li>Used only when you record video</li>
+                <li>Videos are stored locally on your device</li>
+            </ul>
+            
+            <p><strong>Microphone</strong></p>
+            <ul>
+                <li>Used only to record audio within videos</li>
+                <li>Audio is stored locally as part of your video file</li>
+            </ul>
+            
+            <p><strong>Notifications (Optional)</strong></p>
+            <ul>
+                <li>One soft reminder at 10pm to reflect</li>
+                <li>Only if you enable it in settings</li>
+                <li>No tracking of whether you read it</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Third-Party Services</h2>
+            <ul>
+                <li>No analytics or tracking</li>
+                <li>No ads</li>
+                <li>No data sharing with third parties</li>
+                <li>No remote processing of your data</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Your Rights</h2>
+            <ul>
+                <li>You own all your data</li>
+                <li>You can access your videos anytime</li>
+                <li>You can delete individual entries or the entire app at any time</li>
+                <li>Data is permanently deleted when you uninstall POV</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Data Retention</h2>
+            <ul>
+                <li>Video clips: Stored until you delete them</li>
+                <li>Reflections: Stored until you delete them</li>
+                <li>Insight cards: Stored until you delete them</li>
+                <li>App data: All deleted when you uninstall POV</li>
+                <li>No backups stored on our servers</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>POV is not intended for children under 13. If we discover a child under 13 has provided personal information, we will delete it immediately.</p>
+        </section>
+        
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this policy. Changes will be posted on this page.</p>
+        </section>
+        
+        <section>
+            <h2>Questions?</h2>
+            <div class="contact-section">
+                <p>If you have questions about this policy, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:Joudsba@gmail.com">Joudsba@gmail.com</a></p>
+            </div>
+        </section>
+        
+        <div class="summary-box">
+            <strong>In short:</strong>
+            Everything stays on your phone. Nothing is sent anywhere. You can delete anything anytime. We don't sell, share, or monetize your data. You're in control.
+        </div>
+        
+        <div class="footer">
+            <p>Version 1.0 — May 2026</p>
+        </div>
+    </div>
 </body>
 </html>
